@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Proyecto</title>
+	<meta charset="utf-8">
+	<meta name="viewport"  content="width=device-widht,  initial-scale=1,  shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie-edge">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="view" style="background-image: url(img_background/background.jpg); background-repeat: no-repeat; background-size: cover; background-position: center; color: white;">
+<!-- ****************************************************EMPIEZA EL CONTENIDO**************************************************** -->
+<!-- ****************************************************BARRA DE ARRIBA********************************************************* -->
+<nav class="navbar" role="navigation" style="border-radius:0px; margin-bottom:0px; font-family: algerian;">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle btn btn-default active" data-toggle="collapse" data-target="#miBarra" style="float: left; color: white;">
+			</button>
+		</div>
+		<div class="collapse navbar-collapse" id="miBarra">
+			<ul class="nav navbar-nav">
+				<li class="nav-item"><a class="nav-link" href="index.html" style="color: white;">INICIO</a></li>
+				<li class="nav-item"><a class="nav-link" href="quienes.html" style="color: white;">QUIENES SOMOS</a></li>
+				<li class="nav-item active"><a class="nav-link" href="contacto.html" style="color: white;">CONTACTO</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li ><a href="https://www.facebook.com" style="color: white;">FACEBOOK</a></li>
+				<li ><a href="https://www.instagram.com" style="color: white;">INSTAGRAM</a></li>
+				<li ><a href="https://www.twitter.com/" style="color: white;">TWITTER</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<!-- **************************************************TERMINA BARRA DE ARRIBA*************************************************** -->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-12" style="text-align: center;">
+			<h1 style="font-family: algerian; font-size: 100px;">ANIMALES</h1>
+		</div>
+	</div>
+<!-- **************************************************BARRA DE ABAJO*********************************************************** -->
+	<div class="row">
+		<div class="col-sm-12">
+			<ul class="nav nav-tabs" style="font-family: algerian; font-size: 1.1em; color: white;">
+				<li class="nav-item"><a class="nav-link" href="marinos.html" style="color: white;">MARINOS</a></li>
+				<li class="nav-item"><a class="nav-link" href="aereos.html" style="color: white;">AEREOS</a></li>
+				<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" style="color: white;">TERRESTRES<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="puma.html">PUMA</a></li>
+						<li><a class="dropdown-item" href="lobo.html">LOBO</a></li>
+						<li><a class="dropdown-item" href="perro.html">PERRO</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+<!-- **************************************************TERMINA BARRA DE ABAJO*********************************************************** -->
+<!-- **************************************************INICIA FORMULARIO*********************************************************** -->
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-10">
+			<div class="card">
+				<style>
+					.card{
+						margin-top: 2em; 
+						padding-top: 2em;
+						padding-right: 2em;
+						padding-left: 2em;
+						padding-bottom: 2em; 
+						background-color: rgba(245, 245, 245, 0.4);
+						color: black;
+					}	
+				</style>
+				<div class="card-body">
+					<h4 class="well-title">SI DESEA SABER MÁS SOBRE NOSOTROS PUEDE CONTACTARNOS MEDIANTE NUESTRAS REDES SOCIALES</h4>
+				</div>
+				<div class="card-body">
+					<h4 class="well-title">O BIEN PUDE LLENAR EL SIGUIENTE FORMULARIO Y NOSOSTROS NOS CONTACTAREMOS CON USTED</h4>
+				</div>
+				<form>
+					<div class="form-row">
+						<div class="form-group">
+							<label for="nombre">Nombre</label>
+							<input type="text" id="nombre" class="form-control">
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group">
+							<label for="nombre">Correo electronico</label>
+							<input type="text" id="nombre" class="form-control">
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group">
+							<h3>Sobre que deseas saber</h3>
+							<div class="form-check">
+								<input type="checkbox" name="contacto" id="correo" value="correo" class="form-check-input">
+								<label for="correo">Animales Marinos</label>
+							</div>
+							<div class="form-check">
+								<input type="checkbox" name="contacto" id="telefono" value="telefono" class="form-check-input">
+								<label for="telefono">Animales Aereos</label>
+							</div>
+							<div class="form-check">
+								<input type="checkbox" name="contacto" id="celular" value="celular" class="form-check-input">
+								<label for="celular">Animales Terrestres</label>
+							</div>
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group">
+							<label for="nombre">Animal sobre el que desea saber:</label>
+							<input type="text" id="nombre" class="form-control">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="col-sm-1"></div>
+	</div>
+<!-- ****************************************************TERMINA FOMULARIO**************************************************** -->
+<!-- ****************************************************TERMINA EL CONTENIDO**************************************************** -->
+	</div>
+</div>
+</body>
+</html>
